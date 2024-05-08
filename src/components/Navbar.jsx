@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export const Navbar = () => {
     return (
-        <div className="flex flex-col md:flex-row justify-between items-center py-6 px-4 md:px-10 mx-4 md:mx-10 my-4">
+        <div className="flex flex-col md:flex-row justify-between items-center py-6 px-4 md:px-10 mx-auto md:mx-auto my-4">
             <div className="flex justify-start md:w-auto mb-4 md:mb-0">
                 <img src={logo} className="w-32 md:w-40" alt="Logo" />
             </div>

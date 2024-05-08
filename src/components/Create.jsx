@@ -11,16 +11,16 @@ export const Create = () => {
     };
 
     return (
-        <div className="flex justify-between items-center py-6 px-10 mx-10 my-4">
+        <div className="flex justify-between items-center py-6 px-4 md:px-10 mx-auto my-4">
             <div className="left-div w-1/2 flex justify-start">
-                <img src={logo} className="w-40" />
+                <img src={logo} className="w-32 md:w-48" alt="Logo" />
             </div>
             <div className="right-div w-1/2 flex justify-end">
-                <div className="flex w-2/5 justify-between items-center">
-                    <img src={vector} className="w-10 cursor-pointer" />
-                    <p style={gradientText} className="text-3xl">Create Flashcard</p>
+                <div className="flex items-center">
+                    <img src={vector} className="w-8 md:w-10 cursor-pointer mr-2 md:mr-4" />
+                    <p style={gradientText} className="text-2xl md:text-3xl">Create Flashcard</p>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
