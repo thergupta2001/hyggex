@@ -18,7 +18,7 @@ export const Flash = () => {
     };
 
     return (
-        <div className="w-1/2 ml-20 relative my-4">
+        <div className="w-1/2 ml-20 relative my-4 mb-20">
             <p style={gradientText} className="text-3xl my-8 font-bold">FAQ</p>
 
             {questions.map((question, index) => (
